@@ -1,66 +1,72 @@
-#Leaf Disease Prediction using Machine Learning in CNN
+# 🌿 Leaf Disease Prediction using CNN
 
-#Overview
+## 📌 Overview
+This project focuses on detecting and classifying leaf diseases using **Convolutional Neural Networks (CNN)**. The goal is to help farmers and agriculturists **identify plant diseases early**, enabling timely intervention and reducing crop losses.
 
-This project focuses on detecting and classifying leaf diseases using Convolutional Neural Networks (CNN). The goal is to help farmers and agriculturists identify plant diseases early, enabling timely intervention and reducing crop losses.
+---
 
-#Features
+## ✨ Features
+✅ **Image-based** leaf disease detection  
+✅ **Multi-class classification** for various plant diseases  
+✅ **High-accuracy** predictions with CNN  
+✅ **User-friendly implementation** using Python & TensorFlow/Keras  
 
-Image-based leaf disease detection
+---
 
-Classification of multiple plant diseases
+## 📂 Dataset
+The model is trained on a **diverse dataset** of leaf images with various diseases. It consists of **labeled images** covering multiple plant species and disease types. Open-source datasets, including **Kaggle datasets**, have been utilized.
 
-Convolutional Neural Network (CNN) for high-accuracy predictions
+---
 
-User-friendly implementation with Python and TensorFlow/Keras
+## 🛠 Technologies Used
+- 🐍 **Python**
+- 🤖 **TensorFlow/Keras**
+- 📸 **OpenCV** (for image preprocessing)
+- 🔢 **NumPy & Pandas**
+- 📊 **Matplotlib & Seaborn** (for data visualization)
 
-#Dataset
+---
 
-The model is trained on a dataset of leaf images with various diseases. The dataset consists of labeled images covering multiple plant species and disease types.
+## 🚀 Usage
 
-Technologies Used
+### 1️⃣ Prepare the dataset
+Place the dataset in the **`data/`** directory.
 
-Python
-
-TensorFlow/Keras
-
-OpenCV (for image preprocessing)
-
-NumPy & Pandas
-
-Matplotlib & Seaborn (for data visualization)
-
-#Usage
-
-Prepare the dataset and place it in the data/ directory.
-
-Run the preprocessing script:
-
+### 2️⃣ Run the preprocessing script
+```bash
 python preprocess.py
+```
 
-Train the CNN model:
-
+### 3️⃣ Train the CNN model
+```bash
 python train.py
+```
 
-Evaluate and test the model:
-
+### 4️⃣ Evaluate and test the model
+```bash
 python evaluate.py
+```
 
-Run the prediction script with an image:
-
+### 5️⃣ Run predictions on an image
+```bash
 python predict.py --image path/to/image.jpg
+```
 
-#Model Architecture
+---
 
-The Convolutional Neural Network (CNN) consists of multiple convolutional layers, followed by pooling and fully connected layers for classification. Techniques such as data augmentation and transfer learning can be applied for improved accuracy.
+## 🏗 Model Architecture
+The **CNN model** consists of multiple **convolutional layers**, followed by **pooling** and **fully connected layers** for classification. Techniques such as **data augmentation** and **transfer learning** can be applied to enhance accuracy.
 
-#Contributing
+---
 
-Contributions are welcome! Feel free to fork the repository and submit pull requests.
+## 🤝 Contributing
+Contributions are **welcome**! Feel free to **fork the repository** and submit **pull requests** to improve the project.
 
+---
 
-#Acknowledgments
+## 🙌 Acknowledgments
+🔹 **Kaggle** and open-source datasets for leaf disease images  
+🔹 **TensorFlow/Keras** community for their valuable resources and support  
 
-Kaggle and open-source datasets for leaf disease images
+💚 Happy Coding & Keep Growing! 🌱
 
-TensorFlow/Keras community for their support and resources
